@@ -13,6 +13,6 @@ I thought about making an interactive CLI with a stickman talking to the user, b
 In the animation i didn't clear the whole terminal, i only did it at the start, I set the cursor to the first position (top left) and then rewriting every character each frame of the animation. Clearing the program causes a little lag that makes the animation choppy, hence why i opted to rewriting each character instead.
 
 Things i learned along the process: 
-I learned a couple basic syntax that is
+I learned a couple basic syntax.
 I learnd unicodes for styling the texts in java
 I learned we could just do "git remote add origin (url)" to set the repo destination as the github url and add it to the repo
