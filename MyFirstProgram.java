@@ -1,4 +1,3 @@
-package Tugas1OOP;
 import java.util.Scanner;
 public class MyFirstProgram{
 
@@ -35,8 +34,7 @@ public class MyFirstProgram{
                                       " @   Here's a little fun fact!\n/|\\\n/ \\",
                                       " @   Did you know                 \n<|>\n/ \\"," @   Did you know.                \n<|>\n/ \\"," @__ Did you know..               \n<| \n/ \\"," @__ Did you know...              \n<| \n/ \\"," @__ "+funfacts[(int) (Math.random()*10)]+"              \n<| \n/ \\"};
         for (int i = 0; i < 12;i++) {
-            System.out.print("\033[?25l");
-            System.out.print("\033[H");
+            System.out.print("\033[?25l\033[H");
             System.out.println(welcome);
             System.out.println("Current Version of Java : "+System.getProperty("java.version"));
             System.out.println(r + stickmananimation[i] + b);
