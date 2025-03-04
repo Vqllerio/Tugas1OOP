@@ -42,7 +42,7 @@ public class MyFirstProgram{
             "Gosling and his team were cleaning up C++ and ended up with a new programming language, Java."
         };
 
-        //list of stickman animations in chronological order.
+        //list of stickman frames in chronological order.
         String[] stickmananimation = {" @  \n/|\\\n/ \\ ",
                                       " @/  Hello "+name+"!\n/| \n/ \\",
                                       " @__ Hello "+name+"!\n/| \n/ \\",
