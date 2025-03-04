@@ -5,7 +5,11 @@ public class MyFirstProgram{
 
         //Sets up the Scanner to get inputs
         Scanner scanner = new Scanner(System.in);
+
+        //clears the terminal to make the CLI clean looking
         System.out.print("\033c");
+
+        //prompts the user to input their name
         System.out.print("Before the program \"starts\", we'd like to know your name :3 hehe\nYour Name : ");
         String name = scanner.next();
         
